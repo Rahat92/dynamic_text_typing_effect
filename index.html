@@ -10,15 +10,17 @@
 
 <body>
     <div class="wrapper">
-        <h1>Hello <span class="auto-type">world</span></h1>
+        <h1> <span class="auto-type"></span></h1>
     </div>
     <!-- dynamic text typing effect cdn -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script>
         var typed = new Typed('.auto-type', {
-            strings: ["world", "everyone", "there"],
-            typeSpeed: 100,
-            backSpeed: 100,
+            strings: ["AS-salamu-alaikum"],
+            typeSpeed: 50,
+            backSpeed: 50,
+            // i don't want to show cursor at the end of the loop
+            showCursor: false
         });
     </script>
 </body>
